@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+
+		<div class="contentbox">
+			<h3>Try out the Luhn test on a credit card number!</h3>
+			<br>
+			<a href="https://www.freeformatter.com/credit-card-number-generator-validator.html">Try these example numbers!</a>
+		<div>
+
+			<br>
+			<br>
+			<br>
+
+		<div class="formfield">
+			<p id="prompt">Enter a credit card number in the box and see if it passes the Luhn test!</p>
+			<input type="text" name="ccnumber" id="ccnumber" onkeyup="check_card_length()">
+			<input type="button" value="Submit" onclick="luhn()">
+			<p id="result"></p>
+		</div>
+
+	</body>
+</html>

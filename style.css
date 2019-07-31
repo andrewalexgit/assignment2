@@ -1,0 +1,42 @@
+html, body {
+	background: #313848;
+}
+
+p, h3, h6 {
+	font-family: Verdana;
+	color: #8f758e;
+}
+
+a {
+	font-family: Verdana;
+	color: #8adfdc;
+}
+
+.contentbox {
+	text-align: center;
+}
+
+.formfield {
+	text-align: center;
+}
+
+input[type=text] {
+	font-size: 14pt;
+	border-radius: 3px;
+	padding: 5px;
+	width: 200px;
+	height: 15px;
+}
+
+input[type=button] {
+	font-size: 14pt;
+	padding: 5px;
+	height: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  html, body, p, h3, h6 {
+    background-color: #735372;
+    color: #8adfdc;
+  }
+}
